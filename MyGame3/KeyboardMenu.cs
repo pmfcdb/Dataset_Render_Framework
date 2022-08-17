@@ -57,12 +57,15 @@ namespace MyGame3
                 }
                 if (Input.IsKeyDown(Keys.G))
                 {
-                    DebugText.Print("Generate Image", new Int2(340, 500));                
+                    DebugText.Print("Generate Image", new Int2(340, 500));
+                    //TODO: implement this code https://csharpexamples.com/taking-screenshots-c/
+                    //TODO: General: add a dll wth connection to a database
+                    //TODO: General: add child scene with options or main menu
                 }
                 if (Input.IsKeyDown(Keys.V))
                 {
                     DebugText.Print("Change View", new Int2(340, 500));                
-                    //bcamera.
+                    //TODO: create a pivot node ( child component with transform entity ) and then change position of camera
                 }
                 if (Input.IsKeyDown(Keys.Escape))
                 {
