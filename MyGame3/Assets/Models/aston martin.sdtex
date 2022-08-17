@@ -1,0 +1,8 @@
+!Texture
+Id: c1887770-9d16-446c-893d-3b91828ff281
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Models/aston martin
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

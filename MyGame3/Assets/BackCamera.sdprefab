@@ -1,0 +1,34 @@
+!PrefabAsset
+Id: 556413bf-cb50-4e80-b43a-3bc465f783bf
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! fe2c2489-2ed1-4521-85bb-6fb99313df4c
+    Parts:
+        -   Folder: null
+            Entity:
+                Id: fe2c2489-2ed1-4521-85bb-6fb99313df4c
+                Name: BackCamera
+                Components:
+                    1c1eb47bf8746369052e84b5fd3cde6c: !TransformComponent
+                        Id: 6b52e14e-0755-49ba-b8d7-9141509134da
+                        Position: {X: -6.148143, Y: 2.2232122, Z: 0.18014073}
+                        Rotation: {X: 0.14833406, Y: 0.6913733, Z: 0.14833406, W: -0.6913733}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    06d7641b3f8650bf7e1fe749ab72f585: !CameraComponent
+                        Id: ed625af4-6e9a-4eef-b02d-26d728a882e1
+                        Enabled: false
+                        Name: null
+                        Projection: Perspective
+                        Slot: 43cebb65-23db-4811-bcbf-d9ea14254246
+                    35b5a6fa8d8de43218de4bc39ab0fe39: !MyGame3.BasicCameraController,MyGame3
+                        Id: 754bb07a-19e9-4341-a9d4-91f80e87e86a
+                        Gamepad: false
+                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
+                        TouchMovementSpeed: {X: 0.7, Y: 0.7, Z: 0.3}
+                        SpeedFactor: 5.0
+                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
+                        MouseRotationSpeed: {X: 1.0, Y: 1.0}
+                        TouchRotationSpeed: {X: 1.0, Y: 0.7}

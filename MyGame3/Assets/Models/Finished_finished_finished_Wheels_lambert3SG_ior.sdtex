@@ -1,0 +1,8 @@
+!Texture
+Id: ff8c1831-7155-4c29-a417-0be5eedf76a3
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file E:/MODELS/Aston Martin DB4 GT Zagato/TEXTURES/CORONA/Finished_finished_finished_Wheels_lambert3SG_ior.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

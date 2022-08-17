@@ -1,0 +1,8 @@
+!Texture
+Id: 10cdff19-1ee4-4d94-bde9-64f9517b9669
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Models/aston martin/Finished_finished_finished_Body_lambert2SG_ior.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

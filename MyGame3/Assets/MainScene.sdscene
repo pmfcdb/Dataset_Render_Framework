@@ -1,0 +1,181 @@
+!SceneAsset
+Id: 6e9ae817-8ca7-4b69-b71a-cd8c98d3adfd
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 037dccc4-dd6f-4402-b121-c81402401df8
+        - ref!! 446bd636-2830-46ec-9d30-7180727f38ae
+        - ref!! 1af721c1-044d-4f38-a90a-a2eb15738843
+        - ref!! db3188c4-0c1d-4082-aeb9-012f9327e8d7
+        - ref!! 42e01f2f-583d-42a0-a458-17c81e8f365f
+        - ref!! 5b0a35f9-a2af-44b0-a07b-3b3679c94a27
+        - ref!! fa994c90-3af5-477b-b349-531c87957362
+        - ref!! bf94b2ff-1e0f-4efc-8424-bea2e746f42d
+    Parts:
+        -   Entity:
+                Id: 037dccc4-dd6f-4402-b121-c81402401df8
+                Name: Camera
+                Components:
+                    1c1eb47bf8746369052e84b5fd3cde6c: !TransformComponent
+                        Id: de2013ca-1c80-48c9-82cc-2b0d16be8272
+                        Position: {X: 3.1479726, Y: 0.6, Z: -1.0}
+                        Rotation: {X: 0.0, Y: 0.82903755, Z: 0.0, W: 0.5591929}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    06d7641b3f8650bf7e1fe749ab72f585: !CameraComponent
+                        Id: 225fde2c-29fe-4111-92a8-c805443e53a6
+                        Name: main
+                        Projection: Perspective
+                        Slot: 43cebb65-23db-4811-bcbf-d9ea14254246
+                    35b5a6fa8d8de43218de4bc39ab0fe39: !MyGame3.BasicCameraController,MyGame3
+                        Id: 4aeec7b9-d29b-483b-bd8d-2ce489c221ba
+                        Gamepad: false
+                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
+                        TouchMovementSpeed: {X: 0.7, Y: 0.7, Z: 0.3}
+                        SpeedFactor: 5.0
+                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
+                        MouseRotationSpeed: {X: 1.0, Y: 1.0}
+                        TouchRotationSpeed: {X: 1.0, Y: 0.7}
+        -   Entity:
+                Id: 1af721c1-044d-4f38-a90a-a2eb15738843
+                Name: Skybox
+                Components:
+                    ec498966dc5eb051d26cfd96f4511190: !TransformComponent
+                        Id: 8dc617e7-833e-4550-8932-a9fbabe1543d
+                        Position: {X: 0.0, Y: 2.0, Z: -2.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    45beebc661ef50a0715a5c298f061947: !BackgroundComponent
+                        Id: 73c3d916-cd02-404d-88a4-43e4d868bdfb
+                        Texture: 3f45a914-c0b9-44f2-bfc4-ac1fb2c17ad2:Skybox texture
+                    6ee5af127573d9542698f1a3976e0e66: !LightComponent
+                        Id: a4516773-57e0-45e4-8a31-2848a37b6c13
+                        Type: !LightSkybox
+                            Skybox: 9b899647-a56b-4dec-affd-20ec8286988a:Skybox
+        -   Entity:
+                Id: 42e01f2f-583d-42a0-a458-17c81e8f365f
+                Name: UIDemo
+                Components:
+                    c6a647bc015f217b83c61cb81bafc83a: !TransformComponent
+                        Id: b68be824-6875-4990-8039-b9cadc5cdccd
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d828fb39b7745d83c4a4e53003a49034: !UIComponent
+                        Id: 6199e70b-fc04-4dc4-b4ba-51f054790d45
+                        Page: 3f57cba5-e5aa-41ab-a7c5-c891d817676c:UIPage
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+        -   Entity:
+                Id: 446bd636-2830-46ec-9d30-7180727f38ae
+                Name: Directional light
+                Components:
+                    c50f460323c66f22e95a3461058b1eba: !TransformComponent
+                        Id: a76df732-bef8-48b2-9ee3-f02f4e7ef225
+                        Position: {X: 0.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: 1.131334E-08, Y: -0.9659258, Z: -0.25881904, W: -4.222196E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f5b6e8ba9f16347c26cf006de505d8d3: !LightComponent
+                        Id: e4fc3afb-4641-4ba0-b228-2d6c37bd43ab
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Enabled: true
+                                Filter: !LightShadowMapFilterTypePcf
+                                    FilterSize: Filter5x5
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+                        Intensity: 20.0
+        -   Folder: null
+            Entity:
+                Id: 44fa6c3c-b0ee-4302-a7d4-64452c80ac92
+                Name: BackCamera
+                Components:
+                    1c1eb47bf8746369052e84b5fd3cde6c: !TransformComponent
+                        Id: d515916a-eaa5-4c7e-ac72-9632e19890dc
+                        Position: {X: -6.148143, Y: 2.2232122, Z: 0.18014073}
+                        Rotation: {X: 0.14833406, Y: 0.6913733, Z: 0.14833406, W: -0.6913733}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    06d7641b3f8650bf7e1fe749ab72f585: !CameraComponent
+                        Id: 370474b2-2c29-4739-839f-7445f97c46dd
+                        Enabled*: false
+                        Name*: back
+                        Projection: Perspective
+                        Slot: 43cebb65-23db-4811-bcbf-d9ea14254246
+                    35b5a6fa8d8de43218de4bc39ab0fe39: !MyGame3.BasicCameraController,MyGame3
+                        Id: da825271-88ef-4329-9059-2700273021e7
+                        Gamepad: false
+                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
+                        TouchMovementSpeed: {X: 0.7, Y: 0.7, Z: 0.3}
+                        SpeedFactor: 5.0
+                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
+                        MouseRotationSpeed: {X: 1.0, Y: 1.0}
+                        TouchRotationSpeed: {X: 1.0, Y: 0.7}
+            Base:
+                BasePartAsset: 556413bf-cb50-4e80-b43a-3bc465f783bf:BackCamera
+                BasePartId: fe2c2489-2ed1-4521-85bb-6fb99313df4c
+                InstanceId: 119330d5-7a1c-4846-97e4-cfa307a0413a
+        -   Entity:
+                Id: 5b0a35f9-a2af-44b0-a07b-3b3679c94a27
+                Name: uploads_files_1978009_Aston+Martin+DB4+GT+Zagato
+                Components:
+                    51af0fae9f0e94564f1ca1986a9a4f11: !TransformComponent
+                        Id: 66c52215-a9b5-4730-801c-4fa73a45c98d
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    88a70c1c7f0e395abcbfad53c21e6f8c: !ModelComponent
+                        Id: 55706c6b-fd3f-4fae-bf72-9dfaddc45820
+                        Model: 1fb59dcf-9bf3-47e2-9dce-0898b8f9aa8d:Models/uploads_files_1978009_Aston+Martin+DB4+GT+Zagato
+                        Materials: {}
+        -   Entity:
+                Id: bf94b2ff-1e0f-4efc-8424-bea2e746f42d
+                Name: KeyboardInput
+                Components:
+                    19a33bef66ebf0bd5d30caa84c02c9e2: !TransformComponent
+                        Id: 70918154-7ca0-4063-a338-6d7939bb3421
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c798f8309116177a12e732a1fe391e10: !MyGame3.KeyboardMenu,MyGame3
+                        Id: 75070674-ed34-4ad7-923c-efd4ea8449a4
+                        back_camera: ref!! 44fa6c3c-b0ee-4302-a7d4-64452c80ac92
+                        ui_menu: ref!! 42e01f2f-583d-42a0-a458-17c81e8f365f
+        -   Entity:
+                Id: db3188c4-0c1d-4082-aeb9-012f9327e8d7
+                Name: Ground
+                Components:
+                    cc3541dd75e3cd02096dcb478ad7e5da: !TransformComponent
+                        Id: 917f8148-7f7a-4a22-bde2-1febfb0d9a92
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a261bcfd23c10cfcf3a02264d20a45b8: !ModelComponent
+                        Id: 06d060dd-7e34-40b4-bd2a-90e44f619193
+                        Model: 191a88ff-b52e-464b-a6fc-f64e07870921:Ground
+                        Materials: {}
+        -   Entity:
+                Id: fa994c90-3af5-477b-b349-531c87957362
+                Name: BackCamera
+                Components:
+                    2e2bcb515b7524cb0fd2353470929988: !TransformComponent
+                        Id: 4e36bf45-8039-426a-afce-96ea63d5e190
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            57de8db036077d63f44282411798b034: ref!! d515916a-eaa5-4c7e-ac72-9632e19890dc

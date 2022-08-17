@@ -1,0 +1,8 @@
+!Texture
+Id: 5cb906d6-49b4-4f35-bc11-80a1acc3f752
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file E:/MODELS/Aston Martin DB4 GT Zagato/TEXTURES/CORONA/Finished_finished_finished_Body_lambert2SG_Reflection.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

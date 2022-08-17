@@ -1,0 +1,8 @@
+!Texture
+Id: dab4aaaa-7629-489e-b6db-dbc79e8f05fb
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file E:/MODELS/Aston Martin DB4 GT Zagato/TEXTURES/CORONA/Finished_finished_finished_Panel_blinn1SG_ior.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

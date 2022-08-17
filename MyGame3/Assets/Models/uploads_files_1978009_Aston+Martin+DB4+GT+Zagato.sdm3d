@@ -1,0 +1,47 @@
+!Model
+Id: 1fb59dcf-9bf3-47e2-9dce-0898b8f9aa8d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Models/aston martin/uploads_files_1978009_Aston+Martin+DB4+GT+Zagato.FBX
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    b02cad75254bb24971b63d5f34758785:
+        Name: CRN.Finished_finished_finished_Finished_Full_fixed_4_Wheels_lambert3SG1
+        MaterialInstance:
+            Material: 52520cfb-3d27-4d0a-87e7-f6243e405dc4:Models/CRN.Finished_finished_finished_Finished_Full_fixed_4_Wheels_lambert3SG1
+    5eecc1413a7fad8e3e7df4e3a4030861:
+        Name: Finished_finished_finished_Finished_Full_fixed_4_Interior_lambert4SG1
+        MaterialInstance:
+            Material: 4bef5fc2-a0d2-436a-9103-427be6fc41f4:Models/Finished_finished_finished_Finished_Full_fixed_4_Interior_lambert4SG1
+    294b183a4534ad9ebedb51e13e453151:
+        Name: CRN.Finished_finished_finished_Finished_Full_fixed_4_Body_lambert2SG1
+        MaterialInstance:
+            Material: 12eac9fa-3c33-4f8a-89c8-440fc1acb718:Models/Material_2
+    475ed1e3bf1402b2ff9a2e1ec9488fb6:
+        Name: CRN.Finished_finished_finished_Finished_Full_fixed_4_Panel_blinn1SG1
+        MaterialInstance:
+            Material: 2c02dc9e-5f4e-41f0-9031-02079c15a1e3:Models/CRN.Finished_finished_finished_Finished_Full_fixed_4_Panel_blinn1SG1
+    3911768f526b8963625c3269f049e1db:
+        Name: Material
+        MaterialInstance:
+            Material: ef1c07a9-58a4-4b39-b573-a1cb74d48066:Models/Material
+    01a17ca2886e91a8beea01ee5a7094a9:
+        Name: 09-CoronaMtl
+        MaterialInstance:
+            Material: 401ed236-a9fc-41f9-b767-eac80812c8e8:Models/09-CoronaMtl
+    a4a709ba7d7a011e6fb9a36c6b250b2b:
+        Name: GlassAmber2
+        MaterialInstance:
+            Material: 205a7076-cda4-4666-85ae-ccb234ea891c:Models/GlassAmber2
+    e90d43b0390072444d862e2ad083f64b:
+        Name: GlassAmber
+        MaterialInstance:
+            Material: 2fc807d9-c6f4-42dc-a2d8-8d33c86f1c95:Models/GlassAmber
+    02be947dfe2debce35a15236ed291ee6:
+        Name: GlassRed
+        MaterialInstance:
+            Material: 6f0dcb0d-9462-4e13-a226-b0673809f809:Models/GlassRed
+Modifiers: {}
+~SourceHashes:
+    66e3e28dbbe1602c666f6b3de5860628~../../../../Models/aston martin/uploads_files_1978009_Aston+Martin+DB4+GT+Zagato.FBX: 594cc56630561533fa0195227a3d0df8

@@ -1,0 +1,8 @@
+!Texture
+Id: 37689298-1f12-490c-ad4e-f8122b44185b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file E:/MODELS/Aston Martin DB4 GT Zagato/TEXTURES/CORONA/Finished_finished_finished_Interior_lambert4SG_Diffuse.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

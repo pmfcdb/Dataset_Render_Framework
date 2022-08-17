@@ -1,0 +1,79 @@
+!UIPageAsset
+Id: 3f57cba5-e5aa-41ab-a7c5-c891d817676c
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 7a4c8117-d3c4-4e41-b814-679d3c8274a8
+    Parts:
+        -   UIElement: !TextBlock
+                Id: 4d841f78-e939-4d4d-8716-8d5f08e38262
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 837.0
+                Height: 115.0
+                VerticalAlignment: Top
+                Margin: {Left: 206.0, Top: 35.0, Right: 237.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: MyTextBlock
+                Text: Dataset Object Simulator Menu - M
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 46.0
+                TextColor: {R: 170, G: 58, B: 58, A: 255}
+                TextAlignment: Center
+        -   UIElement: !TextBlock
+                Id: 5bae9c2b-0471-4968-9beb-a2f7df85c59c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text: Generate Image - G
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 30.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Grid
+                Id: 7a4c8117-d3c4-4e41-b814-679d3c8274a8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: MyGrid
+                Children:
+                    d5f3d598c29506cb26b08deab9a5fc07: !TextBlock ref!! 4d841f78-e939-4d4d-8716-8d5f08e38262
+                    b4b120840ffbc7eaefba8e3dc5ca0fcb: !Button ref!! bacf4599-9e00-47db-8775-ebca6d6b843d
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !Button
+                Id: bacf4599-9e00-47db-8775-ebca6d6b843d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 463.0
+                Height: 85.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 110.0, Top: 150.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: button_newgame
+                Content: !TextBlock ref!! 5bae9c2b-0471-4968-9beb-a2f7df85c59c
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns

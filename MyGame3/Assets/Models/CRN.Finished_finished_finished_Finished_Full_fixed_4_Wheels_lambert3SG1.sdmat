@@ -1,0 +1,17 @@
+!MaterialAsset
+Id: 52520cfb-3d27-4d0a-87e7-f6243e405dc4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Attributes:
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: 4364862c-2f51-4277-9857-0fe34bb3a221:Models/Finished_finished_finished_Wheels_lambert3SG_Diffuse
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}

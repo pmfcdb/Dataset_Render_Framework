@@ -1,0 +1,8 @@
+!Texture
+Id: 4364862c-2f51-4277-9857-0fe34bb3a221
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Models/aston martin/Finished_finished_finished_Wheels_lambert3SG_Diffuse.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false
